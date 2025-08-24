@@ -1,19 +1,22 @@
 {
-  "missing_values": {
-    "age": 11,
-    "gender": 0,
-    "income": 3,
-    "tenure": 2,
-    "region": 4,
-    "segment": 9,
-    "country": 10,
-    "device": 6,
-    "os": 6,
-    "plan": 8,
-    "city": 5,
-    "zipcode": 0,
-    "churn_flag": 2
+  "row_count": 5,
+  "column_count": 5,
+  "missing_values": {},
+  "data_types": {
+    "age": "int64",
+    "workclass": "object",
+    "education_num": "int64",
+    "hours_per_week": "int64",
+    "income": "object"
   },
-  "schema_consistency": true,
-  "row_count": 25000
+  "validation_status": "passed",
+  "last_validated": "2025-08-25T05:01:13.180674",
+  "quality_score": 80.0,
+  "anomalies_detected": 0,
+  "duplicate_rows": 0,
+  "validation_issues": {
+    "missing_issues": 0,
+    "dtype_issues": 0,
+    "rule_issues": 0
+  }
 }

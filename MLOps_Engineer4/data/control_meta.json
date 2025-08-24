@@ -1,8 +1,15 @@
 {
-  "operator_id": 1704,
-  "batches_today": 128,
-  "drift_alerts_24h": 4,
-  "ooc_percent": 1.12,
-  "queue": 9,
-  "time_to_completion": 60
+  "operator_id": "OP-E1-001",
+  "batches_today": 13,
+  "last_update": "2025-08-25T05:01:13.187047",
+  "status": "active",
+  "total_processed": 5,
+  "success_rate": 100.0,
+  "avg_processing_time": 2.5,
+  "alerts": 0,
+  "system_health": "good",
+  "drift_alerts_24h": 0,
+  "ooc_percent": 0.0,
+  "queue": 0,
+  "time_to_completion": 15.0
 }
