@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "timestamp": "2025-08-18T09:00:00Z",
+      "action": "deploy",
+      "version": "v3.3.0"
+    },
+    {
+      "timestamp": "2025-08-12T13:00:00Z",
+      "action": "rollback",
+      "from": "v3.2.1",
+      "to": "v3.1.0"
+    },
+    {
+      "timestamp": "2025-07-30T10:30:00Z",
+      "action": "deploy",
+      "version": "v3.2.1"
+    }
+  ]
+}

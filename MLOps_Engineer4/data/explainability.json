@@ -1,0 +1,10 @@
+{
+  "summary": "Operational metrics steady; recent drift trend approaching threshold. Younger demographic influence increasing.",
+  "shap_top_features": [
+    "age",
+    "income",
+    "tenure",
+    "region",
+    "device"
+  ]
+}

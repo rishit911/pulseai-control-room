@@ -1,0 +1,16 @@
+{
+  "group": [
+    "male",
+    "female",
+    "nonbinary",
+    "unknown",
+    "prefer_not_say"
+  ],
+  "accuracy": [
+    0.85,
+    0.8,
+    0.83,
+    0.78,
+    0.81
+  ]
+}
