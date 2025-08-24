@@ -1,3 +1,9 @@
+# Ensure repo root is importable when running Streamlit from anywhere
+import sys, pathlib
+_repo_root = pathlib.Path(__file__).resolve().parents[2]
+if str(_repo_root) not in sys.path:
+    sys.path.insert(0, str(_repo_root))
+
 import time
 import streamlit as st  # type: ignore
 from components.ui import inject_css, topbar

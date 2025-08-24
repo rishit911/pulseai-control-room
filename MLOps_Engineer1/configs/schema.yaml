@@ -1,0 +1,19 @@
+columns:
+  - name: age
+    dtype: int64
+    allow_null: false
+  - name: workclass
+    dtype: object
+    allow_null: true
+  - name: education_num
+    dtype: int64
+    allow_null: false
+  - name: hours_per_week
+    dtype: int64
+    allow_null: false
+  - name: income
+    dtype: object
+    allow_null: false
+
+rules:
+  max_null_fraction: 0.1

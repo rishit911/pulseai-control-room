@@ -1,0 +1,6 @@
+age,workclass,education_num,hours_per_week,income
+25,Private,13,40,>50K
+45,Self-emp,10,60,<=50K
+39,Private,14,45,>50K
+31,Private,12,38,<=50K
+52,Gov,9,50,>50K
