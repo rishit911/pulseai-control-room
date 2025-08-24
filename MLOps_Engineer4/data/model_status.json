@@ -1,0 +1,12 @@
+{
+  "active_model": "v3.3.0",
+  "accuracy": 0.92,
+  "precision": 0.908,
+  "recall": 0.902,
+  "last_trained": "2025-08-18T10:00:00Z",
+  "rollback_history": [
+    "v3.2.1",
+    "v3.1.0",
+    "v3.0.0"
+  ]
+}

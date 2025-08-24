@@ -1,0 +1,8 @@
+{
+  "operator_id": 1704,
+  "batches_today": 128,
+  "drift_alerts_24h": 4,
+  "ooc_percent": 1.12,
+  "queue": 9,
+  "time_to_completion": 60
+}
