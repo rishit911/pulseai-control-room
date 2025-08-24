@@ -1,0 +1,22 @@
+name: validate-e1
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-validation-e1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -U pip
+      - run: pip install -r requirements.txt || true
+      - run: pip install zenml mlflow pyyaml pandas scikit-learn
+      - run: zenml init
+      - run: zenml experiment-tracker register mlflow_tracker --flavor=mlflow || true
+      - run: zenml stack register engineer1_stack -o default -a default -e mlflow_tracker
+      - run: zenml stack set engineer1_stack
+      - run: python -m MLOps_Engineer1.core.pipelines.run_ingestion_validation
