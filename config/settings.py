@@ -7,6 +7,6 @@ load_dotenv()
 class Settings:
     PROJECT_NAME: str = "AI Reliability Dashboard API"
     ENVIRONMENT: str = os.getenv("ENVIRONMENT", "development")
-    VERSION: str = "1.0.0"
+    VERSION: str = "1.1.0"
 
 settings = Settings()
