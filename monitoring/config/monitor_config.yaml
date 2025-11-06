@@ -1,0 +1,12 @@
+data:
+  reference: "data/reference.csv"
+  current: "data/current.csv"
+artifacts:
+  latest: "artifacts/latest"
+  history: "artifacts/history"
+metrics:
+  drift_threshold_mean_diff: 0.2 # normalized mean diff (z-like)
+  fairness_disparity_threshold: 0.1
+sensitive_feature: "sensitive_feature"
+label: "label"
+prediction: "prediction"

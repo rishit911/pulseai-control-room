@@ -1,0 +1,4 @@
+# Optional overrides for thresholds per environment
+production:
+  drift_threshold_mean_diff: 0.15
+  fairness_disparity_threshold: 0.05

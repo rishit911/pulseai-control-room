@@ -1,0 +1,10 @@
+
+# Python virtual env
+.venv/
+
+# Monitoring artifacts (generated)
+monitoring/artifacts/
+
+# Notebook checkpoints / editor settings
+.ipynb_checkpoints/
+.vscode/

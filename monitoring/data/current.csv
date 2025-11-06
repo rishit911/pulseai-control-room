@@ -1,0 +1,4 @@
+id,sensitive_feature,label,feature1,feature2,prediction
+4,A,1,0.7,9,1
+5,B,0,0.05,13,0
+6,B,0,0.02,14,0
