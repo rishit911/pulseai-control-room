@@ -8,3 +8,5 @@ monitoring/artifacts/
 # Notebook checkpoints / editor settings
 .ipynb_checkpoints/
 .vscode/
+__pycache__/
+*.py[cod]
