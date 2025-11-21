@@ -1,0 +1,18 @@
+{
+  "problem_type": "classification",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "train_size": 24,
+  "test_size": 6,
+  "timestamp": "2025-11-09T00:30:56.753754",
+  "model_name": "Logistic Regression",
+  "features": [
+    "sepal_length",
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "target": "species"
+}

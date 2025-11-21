@@ -1,0 +1,53 @@
+{
+  "drift": {
+    "timestamp": "2025-11-09T15:45:38.300275",
+    "drift_detected": false,
+    "features": {
+      "sepal_width": {
+        "p_value": 0.611541438766307,
+        "statistic": 0.05002151044533387,
+        "drift": false,
+        "threshold": 0.05
+      },
+      "petal_length": {
+        "p_value": 0.3200234546952954,
+        "statistic": 0.4464214762976455,
+        "drift": false,
+        "threshold": 0.05
+      },
+      "petal_width": {
+        "p_value": 0.6891769713312099,
+        "statistic": 1.3533989748458226,
+        "drift": false,
+        "threshold": 0.05
+      }
+    },
+    "summary": {
+      "total_features": 3,
+      "drifted_features": 0,
+      "drift_percentage": 0.0
+    }
+  },
+  "fairness": {
+    "timestamp": "2025-11-09T15:45:38.300275",
+    "groups": {
+      "Group A": {
+        "accuracy": 0.928435913540969,
+        "positive_prediction_rate": 0.33477553305176644,
+        "sample_size": 158
+      },
+      "Group B": {
+        "accuracy": 0.7563565358963568,
+        "positive_prediction_rate": 0.33747809594463696,
+        "sample_size": 109
+      },
+      "Group C": {
+        "accuracy": 0.8510710576206725,
+        "positive_prediction_rate": 0.31061438787354545,
+        "sample_size": 100
+      }
+    },
+    "fairness_score": 0.814656698286996
+  },
+  "timestamp": "2025-11-09T15:45:38.300275"
+}

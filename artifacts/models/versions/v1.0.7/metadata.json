@@ -1,0 +1,38 @@
+{
+  "version": "v1.0.7",
+  "model_name": "Logistic Regression",
+  "features": [
+    "sepal_length",
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "target": "species",
+  "metrics": {
+    "problem_type": "classification",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "train_size": 24,
+    "test_size": 6,
+    "timestamp": "2025-11-09T00:30:56.753754",
+    "model_name": "Logistic Regression",
+    "features": [
+      "sepal_length",
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "species"
+  },
+  "feature_importance": {
+    "sepal_length": 0.3451419334773985,
+    "sepal_width": 0.36955743215437364,
+    "petal_length": 1.4025099571427275,
+    "petal_width": 0.6068660222590546
+  },
+  "trained_at": "2025-11-09T00:30:56.760165",
+  "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.7\\model.pkl",
+  "status": "active"
+}

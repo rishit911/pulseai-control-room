@@ -1,0 +1,41 @@
+{
+  "version": "v1.0.5",
+  "model_name": "Logistic Regression",
+  "features": [
+    "bedrooms",
+    "bathrooms",
+    "sqft",
+    "age_years",
+    "garage"
+  ],
+  "target": "price",
+  "metrics": {
+    "problem_type": "classification",
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "train_size": 16,
+    "test_size": 4,
+    "timestamp": "2025-11-08T14:30:55.286165",
+    "model_name": "Logistic Regression",
+    "features": [
+      "bedrooms",
+      "bathrooms",
+      "sqft",
+      "age_years",
+      "garage"
+    ],
+    "target": "price"
+  },
+  "feature_importance": {
+    "bedrooms": 0.03699168260907814,
+    "bathrooms": 0.019980619001147254,
+    "sqft": 0.016466855209203397,
+    "age_years": 1.2652894337231753,
+    "garage": 0.17279817345522805
+  },
+  "trained_at": "2025-11-08T14:30:55.289417",
+  "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.5\\model.pkl",
+  "status": "active"
+}

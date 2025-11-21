@@ -1,0 +1,36 @@
+{
+  "version": "v1.0.10",
+  "model_name": "Random Forest",
+  "features": [
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "target": "sepal_length",
+  "metrics": {
+    "problem_type": "regression",
+    "rmse": 0.3094572702059722,
+    "mae": 0.26020833333333054,
+    "r2_score": 0.901076129842182,
+    "mse": 0.09576380208333209,
+    "mape": 0.05046812335153,
+    "train_size": 24,
+    "test_size": 6,
+    "timestamp": "2025-11-09T15:45:38.101571",
+    "model_name": "Random Forest",
+    "features": [
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "sepal_length"
+  },
+  "feature_importance": {
+    "sepal_width": 0.08002670491485905,
+    "petal_length": 0.838689865621485,
+    "petal_width": 0.08128342946365595
+  },
+  "trained_at": "2025-11-09T15:45:38.186077",
+  "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.10\\model.pkl",
+  "status": "active"
+}

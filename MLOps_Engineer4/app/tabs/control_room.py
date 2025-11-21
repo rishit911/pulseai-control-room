@@ -13,8 +13,34 @@ def sparkline(series):
     return fig
 
 def render():
-    st.title("Control Room")
-    st.caption(f"Source: {dummy_dir()}")
+    # Title and sync controls
+    col1, col2, col3 = st.columns([6, 1, 1])
+    with col1:
+        st.title("Control Room")
+        st.caption(f"Source: {dummy_dir()}")
+    with col2:
+        if st.button("🔄 Refresh"):
+            st.cache_data.clear()
+            st.rerun()
+    with col3:
+        if st.button("🔄 Sync", help="Sync with latest model data"):
+            with st.spinner("Syncing..."):
+                try:
+                    from pathlib import Path
+                    import sys
+                    base_dir = Path(__file__).resolve().parents[3]
+                    sys.path.insert(0, str(base_dir))
+                    from MLOps_Engineer1.core.integration.data_sync import DataSynchronizer
+                    
+                    syncer = DataSynchronizer()
+                    result = syncer.sync_all_data()
+                    if result.get('status') == 'success':
+                        st.success("✅ Synced!")
+                        st.rerun()
+                    else:
+                        st.error("❌ Sync failed")
+                except Exception as e:
+                    st.error(f"❌ Error: {e}")
 
     meta = load_json("control_meta.json")
     c1, c2, c3, c4, c5 = st.columns(5)

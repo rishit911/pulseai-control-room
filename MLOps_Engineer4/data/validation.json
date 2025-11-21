@@ -10,7 +10,7 @@
     "income": "object"
   },
   "validation_status": "passed",
-  "last_validated": "2025-08-25T05:01:13.180674",
+  "last_validated": "2025-11-09T15:45:38.261740",
   "quality_score": 80.0,
   "anomalies_detected": 0,
   "duplicate_rows": 0,

@@ -7,7 +7,7 @@ if str(_repo_root) not in sys.path:
 import time
 import streamlit as st  # type: ignore
 from components.ui import inject_css, topbar
-from tabs import control_room, data_health, model_status, drift_fairness, recovery, explainability, reports
+from tabs import control_room, data_health, model_status, drift_fairness, recovery, explainability, reports, model_training, model_versioning
 
 
 st.set_page_config(page_title="PulseAI — Ultra", layout="wide", page_icon="⚙️")
@@ -160,6 +160,8 @@ def _app():
     topbar(title="PulseAI", org="Company XYZ", role="Business Viewer")
     tabs = {
         "🏠 Control Room": control_room.render,
+        "🤖 Model Training": model_training.render,
+        "📦 Model Versions": model_versioning.render,
         "📊 Model Status": model_status.render,
         "📉 Drift & Fairness": drift_fairness.render,
         "🧪 Data Health": data_health.render,

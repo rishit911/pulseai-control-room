@@ -1,0 +1,19 @@
+{
+  "problem_type": "classification",
+  "accuracy": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1_score": 0.0,
+  "train_size": 16,
+  "test_size": 4,
+  "timestamp": "2025-11-08T14:30:55.286165",
+  "model_name": "Logistic Regression",
+  "features": [
+    "bedrooms",
+    "bathrooms",
+    "sqft",
+    "age_years",
+    "garage"
+  ],
+  "target": "price"
+}

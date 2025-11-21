@@ -1,0 +1,23 @@
+{
+  "model_type": "RandomForestClassifier",
+  "task_type": "classification",
+  "features": [
+    "age",
+    "workclass_encoded",
+    "education_num",
+    "hours_per_week"
+  ],
+  "target": "income",
+  "n_samples": 5,
+  "train_size": 4,
+  "test_size": 1,
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "sklearn_version": "1.6.1",
+  "trained_at": "2025-11-09T01:45:28.743804",
+  "version": "v1.0.10"
+}

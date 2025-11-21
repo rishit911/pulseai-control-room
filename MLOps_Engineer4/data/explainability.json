@@ -1,10 +1,8 @@
 {
-  "summary": "Operational metrics steady; recent drift trend approaching threshold. Younger demographic influence increasing.",
+  "summary": "Model performance: 90.04%. Top features: petal_length, petal_width, sepal_width. Problem type: regression.",
   "shap_top_features": [
-    "age",
-    "income",
-    "tenure",
-    "region",
-    "device"
+    "petal_length",
+    "petal_width",
+    "sepal_width"
   ]
 }

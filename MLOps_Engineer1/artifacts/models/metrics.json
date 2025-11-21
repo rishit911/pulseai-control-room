@@ -1,0 +1,18 @@
+{
+  "problem_type": "regression",
+  "rmse": 0.31044081561547016,
+  "mae": 0.2578333333333294,
+  "r2_score": 0.9004463127690117,
+  "mse": 0.09637349999999834,
+  "mape": 0.05015045551622369,
+  "train_size": 24,
+  "test_size": 6,
+  "timestamp": "2025-11-07T17:13:50.037539",
+  "model_name": "Random Forest",
+  "features": [
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "target": "sepal_length"
+}

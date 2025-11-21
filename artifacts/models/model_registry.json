@@ -1,0 +1,224 @@
+[
+  {
+    "version": "v1.0.5",
+    "model_name": "Logistic Regression",
+    "features": [
+      "bedrooms",
+      "bathrooms",
+      "sqft",
+      "age_years",
+      "garage"
+    ],
+    "target": "price",
+    "metrics": {
+      "problem_type": "classification",
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "train_size": 16,
+      "test_size": 4,
+      "timestamp": "2025-11-08T14:30:55.286165",
+      "model_name": "Logistic Regression",
+      "features": [
+        "bedrooms",
+        "bathrooms",
+        "sqft",
+        "age_years",
+        "garage"
+      ],
+      "target": "price"
+    },
+    "feature_importance": {
+      "bedrooms": 0.03699168260907814,
+      "bathrooms": 0.019980619001147254,
+      "sqft": 0.016466855209203397,
+      "age_years": 1.2652894337231753,
+      "garage": 0.17279817345522805
+    },
+    "trained_at": "2025-11-08T14:30:55.289417",
+    "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.5\\model.pkl",
+    "status": "active"
+  },
+  {
+    "version": "v1.0.6",
+    "model_name": "Random Forest",
+    "features": [
+      "sepal_length",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "sepal_width",
+    "metrics": {
+      "problem_type": "classification",
+      "accuracy": 0.6666666666666666,
+      "precision": 0.8888888888888888,
+      "recall": 0.6666666666666666,
+      "f1_score": 0.7083333333333334,
+      "train_size": 24,
+      "test_size": 6,
+      "timestamp": "2025-11-08T14:38:52.359721",
+      "model_name": "Random Forest",
+      "features": [
+        "sepal_length",
+        "petal_length",
+        "petal_width"
+      ],
+      "target": "sepal_width"
+    },
+    "feature_importance": {
+      "sepal_length": 0.3166129831578124,
+      "petal_length": 0.3403816579794431,
+      "petal_width": 0.34300535886274447
+    },
+    "trained_at": "2025-11-08T14:38:52.426875",
+    "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.6\\model.pkl",
+    "status": "active"
+  },
+  {
+    "version": "v1.0.7",
+    "model_name": "Logistic Regression",
+    "features": [
+      "sepal_length",
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "species",
+    "metrics": {
+      "problem_type": "classification",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "train_size": 24,
+      "test_size": 6,
+      "timestamp": "2025-11-09T00:30:56.753754",
+      "model_name": "Logistic Regression",
+      "features": [
+        "sepal_length",
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+      ],
+      "target": "species"
+    },
+    "feature_importance": {
+      "sepal_length": 0.3451419334773985,
+      "sepal_width": 0.36955743215437364,
+      "petal_length": 1.4025099571427275,
+      "petal_width": 0.6068660222590546
+    },
+    "trained_at": "2025-11-09T00:30:56.760165",
+    "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.7\\model.pkl",
+    "status": "active"
+  },
+  {
+    "version": "v1.0.8",
+    "model_name": "Random Forest",
+    "features": [
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "sepal_length",
+    "metrics": {
+      "problem_type": "regression",
+      "rmse": 0.31044081561547016,
+      "mae": 0.2578333333333294,
+      "r2_score": 0.9004463127690117,
+      "mse": 0.09637349999999834,
+      "mape": 0.05015045551622369,
+      "train_size": 24,
+      "test_size": 6,
+      "timestamp": "2025-11-09T00:37:26.844304",
+      "model_name": "Random Forest",
+      "features": [
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+      ],
+      "target": "sepal_length"
+    },
+    "feature_importance": {
+      "sepal_width": 0.08154400601008621,
+      "petal_length": 0.8177806361776203,
+      "petal_width": 0.10067535781229343
+    },
+    "trained_at": "2025-11-09T00:37:26.896661",
+    "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.8\\model.pkl",
+    "status": "active"
+  },
+  {
+    "version": "v1.0.9",
+    "model_name": "Random Forest",
+    "features": [
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "sepal_length",
+    "metrics": {
+      "problem_type": "regression",
+      "rmse": 0.31044081561547016,
+      "mae": 0.2578333333333294,
+      "r2_score": 0.9004463127690117,
+      "mse": 0.09637349999999834,
+      "mape": 0.05015045551622369,
+      "train_size": 24,
+      "test_size": 6,
+      "timestamp": "2025-11-09T01:32:43.388293",
+      "model_name": "Random Forest",
+      "features": [
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+      ],
+      "target": "sepal_length"
+    },
+    "feature_importance": {
+      "sepal_width": 0.08154400601008621,
+      "petal_length": 0.8177806361776203,
+      "petal_width": 0.10067535781229343
+    },
+    "trained_at": "2025-11-09T01:32:43.446377",
+    "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.9\\model.pkl",
+    "status": "active"
+  },
+  {
+    "version": "v1.0.10",
+    "model_name": "Random Forest",
+    "features": [
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "sepal_length",
+    "metrics": {
+      "problem_type": "regression",
+      "rmse": 0.3094572702059722,
+      "mae": 0.26020833333333054,
+      "r2_score": 0.901076129842182,
+      "mse": 0.09576380208333209,
+      "mape": 0.05046812335153,
+      "train_size": 24,
+      "test_size": 6,
+      "timestamp": "2025-11-09T15:45:38.101571",
+      "model_name": "Random Forest",
+      "features": [
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+      ],
+      "target": "sepal_length"
+    },
+    "feature_importance": {
+      "sepal_width": 0.08002670491485905,
+      "petal_length": 0.838689865621485,
+      "petal_width": 0.08128342946365595
+    },
+    "trained_at": "2025-11-09T15:45:38.186077",
+    "model_path": "C:\\Users\\Rishit\\OneDrive\\Desktop\\pulseai\\pulseai-control-room\\artifacts\\models\\versions\\v1.0.10\\model.pkl",
+    "status": "active"
+  }
+]

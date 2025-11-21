@@ -1,12 +1,12 @@
 {
   "parameter": [
-    "Age",
-    "Income",
-    "Education"
+    "Sepal Width",
+    "Petal Length",
+    "Petal Width"
   ],
   "ooc": [
-    0.5,
-    0.3,
-    0.2
+    4.59,
+    0.91,
+    4.5
   ]
 }
